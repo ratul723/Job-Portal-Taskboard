@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>67.0</apiVersion>
+    <isExposed>true</isExposed>
+    <masterLabel>Jira Task Board</masterLabel>
+
+    <description>
+        Displays Jira tasks synchronized into Salesforce as a Kanban board.
+    </description>
+
+    <targets>
+        <target>lightningCommunity__Page</target>
+        <target>lightning__AppPage</target>
+    </targets>
+</LightningComponentBundle>
